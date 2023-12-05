@@ -1,0 +1,6 @@
+type Category {
+    id: Int!
+    ageRange: String!
+    gender: Gender
+    equipments: [Equipment]!
+}

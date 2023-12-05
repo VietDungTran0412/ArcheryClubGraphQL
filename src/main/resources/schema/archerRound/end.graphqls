@@ -1,0 +1,4 @@
+type End {
+    id: String!
+    score: Int!
+}

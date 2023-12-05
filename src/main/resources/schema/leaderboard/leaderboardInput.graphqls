@@ -1,0 +1,6 @@
+input LeaderboardInput {
+    categoryId: Int,
+    roundTypeId: Int,
+    firstname:String,
+    lastname: String
+}

@@ -1,0 +1,5 @@
+type RoundType {
+    id: Int!
+    name: String!
+    ranges: [Range]!
+}

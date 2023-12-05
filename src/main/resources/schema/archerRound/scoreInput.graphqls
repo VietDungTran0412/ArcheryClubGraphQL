@@ -1,0 +1,8 @@
+input ScoreInput {
+    end1: Int!
+    end2: Int!
+    end3:Int!
+    end4: Int!
+    end5:Int!
+    end6:Int
+}

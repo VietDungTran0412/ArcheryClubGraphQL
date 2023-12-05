@@ -1,0 +1,6 @@
+type Club {
+    id: Int!
+    name: String!
+    email: String!
+    members: [Archer]
+}

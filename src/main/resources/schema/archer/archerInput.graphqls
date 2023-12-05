@@ -1,0 +1,9 @@
+input ArcherInput {
+    firstname: String!
+    lastname: String!
+    age: Int!
+    gender: Gender!
+    phone: String!
+    email: String!
+    password: String!
+}

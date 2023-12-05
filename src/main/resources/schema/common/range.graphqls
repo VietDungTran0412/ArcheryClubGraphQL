@@ -1,0 +1,5 @@
+type Range {
+    face: Face!
+    distance: Distance!
+    endCount: Int!
+}

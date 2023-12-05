@@ -1,0 +1,10 @@
+type Archer {
+    id: Int!
+    firstname: String!
+    lastname: String!
+    phone: String!
+    age: Int!
+    email: String!
+    role: String!
+    archerRounds: [ArcherRound]!
+}

@@ -1,0 +1,4 @@
+input EndInput {
+    roundId: String!,
+    scores: ScoreInput!
+}

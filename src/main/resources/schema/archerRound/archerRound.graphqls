@@ -1,0 +1,9 @@
+type ArcherRound {
+    id: Int!
+    createdDate: String
+    roundType: RoundType!
+    category: Category!
+    equipment: Equipment!
+    archer: Archer
+    ends: [End]
+}

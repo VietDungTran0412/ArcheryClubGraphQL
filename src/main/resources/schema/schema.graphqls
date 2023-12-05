@@ -1,0 +1,20 @@
+type Mutation {
+    saveEquipments(equipments: [EquipmentInput!]): [Equipment]
+    register(archer: ArcherInput!): AuthResponse!
+    logout: String
+    createRound(archer: Int!, category: Int!, equipment: Int!, roundType: Int!): ArcherRound!
+    addScore(end: EndInput!): ArcherRound
+}
+
+type Query {
+    getAllEquipments: [Equipment]
+    login(authInput: AuthInput!): AuthResponse!
+    getRanges: [Range]!
+    getCategories: [Category]!
+    getRoundTypes: [RoundType]!
+    getArcherRound(id: String!): ArcherRound!
+    getLeaderboard(input: LeaderboardInput): [LeaderboardResponse]!
+    getArcherById(id: Int!): Archer
+}
+
+

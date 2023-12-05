@@ -1,0 +1,10 @@
+type LeaderboardResponse{
+    archerId: Int
+    ranking: Int
+    firstname: String
+    lastname: String
+    gender: Gender
+    score: Int
+    ageRange: String
+    roundType: String
+}
